@@ -8,5 +8,5 @@ Visual Studio Code
   > 设置
 
 3. vscodechesteratom.json
-  > chesteratom主题配色
-  > /Users/lgc/.vscode/extensions/chriseckenrode.vscode-chester-atom-0.1.12/themes
+  > [chesteratom](https://github.com/ceckenrode/vscode-chester-atom)主题配色
+  > 修改了原主题中一些字体和颜色配置
