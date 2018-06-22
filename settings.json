@@ -1,0 +1,115 @@
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 18,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "'Fira Code', 'Source Code Pro'",
+    "editor.fontLigatures": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 80,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "line-thin",
+    "editor.renderLineHighlight": "all",
+    "editor.renderIndentGuides": false,
+    "editor.snippetSuggestions": "top",
+    "explorer.openEditors.visible": 0,
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.colorTheme": "Chester Atom",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "extensions.ignoreRecommendations": true,
+    "files.exclude": {
+        ".vscode/": true
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE:",
+            "color": "#fff",
+            "backgroundColor": "#3ead69"
+        },
+        {
+            "text": "FIXME:",
+            "color": "#fff",
+            "backgroundColor": "#ed5565"
+        }
+    ],
+    "gitlens.advanced.menus": {
+        "editorContext": {
+            "details": false,
+            "fileDiff": false,
+            "lineDiff": false,
+            "remote": false
+        },
+        "editorTitle": {
+            "blame": false
+        },
+        "explorerContext": {
+            "fileDiff": false,
+            "history": false,
+            "remote": false
+        }
+    },
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.keymap": "none",
+    "search.location": "panel",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "terminal.integrated.fontWeightBold": "normal",
+    "highlight-matching-tag.leftStyle": {
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#888888",
+        "borderRadius": "0px"
+    },
+    "highlight-matching-tag.rightStyle": {
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#888888",
+        "borderRadius": "0px"
+    },
+    "gitlens.historyExplorer.enabled": false,
+    "gitlens.settings.mode": "advanced",
+    "gitlens.gitExplorer.enabled": false,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "details": true,
+            "history": false,
+            "remote": true
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorTab": {
+            "compare": false,
+            "history": false,
+            "remote": true
+        },
+        "explorer": {
+            "compare": true,
+            "history": true,
+            "remote": true
+        }
+    }
+}
