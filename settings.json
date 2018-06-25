@@ -13,15 +13,18 @@
     "editor.renderIndentGuides": false,
     "editor.snippetSuggestions": "top",
     "explorer.openEditors.visible": 0,
+    "extensions.ignoreRecommendations": true,
     "emmet.triggerExpansionOnTab": true,
     "workbench.editor.tabSizing": "shrink",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "file-icons-colourless",
     "workbench.colorTheme": "Chester Atom",
+    "workbench.statusBar.feedback.visible": false,
+    "search.location": "panel",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "terminal.external.osxExec": "iTerm.app",
-    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.fontWeightBold": "normal",
     "files.exclude": {
         ".vscode/": true
     },
@@ -37,29 +40,11 @@
             "backgroundColor": "#ed5565"
         }
     ],
-    "gitlens.advanced.menus": {
-        "editorContext": {
-            "details": false,
-            "fileDiff": false,
-            "lineDiff": false,
-            "remote": false
-        },
-        "editorTitle": {
-            "blame": false
-        },
-        "explorerContext": {
-            "fileDiff": false,
-            "history": false,
-            "remote": false
-        }
-    },
     "gitlens.showWhatsNewAfterUpgrades": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.enabled": false,
     "gitlens.statusBar.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
     "gitlens.keymap": "none",
-    "search.location": "panel",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -70,7 +55,22 @@
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
     },
-    "terminal.integrated.fontWeightBold": "normal",
+    "gitlens.historyExplorer.enabled": false,
+    "gitlens.settings.mode": "advanced",
+    "gitlens.gitExplorer.enabled": false,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": false,
+            "compare": true,
+            "details": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "editorTab": false,
+        "explorer": false
+    },
     "highlight-matching-tag.leftStyle": {
         "borderWidth": "1px",
         "borderStyle": "solid",
@@ -82,34 +82,5 @@
         "borderStyle": "solid",
         "borderColor": "#888888",
         "borderRadius": "0px"
-    },
-    "gitlens.historyExplorer.enabled": false,
-    "gitlens.settings.mode": "advanced",
-    "gitlens.gitExplorer.enabled": false,
-    "gitlens.menus": {
-        "editor": {
-            "blame": false,
-            "clipboard": true,
-            "compare": true,
-            "details": true,
-            "history": false,
-            "remote": true
-        },
-        "editorGroup": {
-            "blame": true,
-            "compare": true,
-            "history": false,
-            "remote": false
-        },
-        "editorTab": {
-            "compare": false,
-            "history": false,
-            "remote": true
-        },
-        "explorer": {
-            "compare": true,
-            "history": true,
-            "remote": true
-        }
     }
 }
